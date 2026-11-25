@@ -4,7 +4,7 @@
 
 ISO ADVISOR is a Python-based university project designed to assist users with ISO-related information and standards analysis through an interactive interface.
 
-The project aims to make working with ISO standards more accessible by providing an AI-assisted environment with support for multiple languages.
+The project aims to make working with ISO standards more accessible through an AI-assisted environment with support for multiple languages.
 
 ---
 
@@ -47,7 +47,7 @@ There are several ways to download ISO ADVISOR.
 Make sure Git is installed, then open CMD, PowerShell, or Terminal and run:
 
 ```bash
-git clone https://github.com/D5F8ULT/ISO_ADVISOR.git
+git clone https://github.com/ArianAnoushe/ISO_ADVISOR.git
 cd ISO_ADVISOR
 ```
 
@@ -56,7 +56,7 @@ cd ISO_ADVISOR
 If you don't have Git installed, open PowerShell and run:
 
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/D5F8ULT/ISO_ADVISOR/archive/refs/heads/main.zip" -OutFile "ISO_ADVISOR.zip"
+Invoke-WebRequest -Uri "https://github.com/ArianAnoushe/ISO_ADVISOR/archive/refs/heads/main.zip" -OutFile "ISO_ADVISOR.zip"
 
 Expand-Archive -Path "ISO_ADVISOR.zip" -DestinationPath "."
 
@@ -68,7 +68,7 @@ cd ISO_ADVISOR-main
 Open Command Prompt and run:
 
 ```cmd
-curl -L -o ISO_ADVISOR.zip https://github.com/D5F8ULT/ISO_ADVISOR/archive/refs/heads/main.zip
+curl -L -o ISO_ADVISOR.zip https://github.com/ArianAnoushe/ISO_ADVISOR/archive/refs/heads/main.zip
 
 tar -xf ISO_ADVISOR.zip
 
@@ -80,22 +80,16 @@ cd ISO_ADVISOR-main
 If Python is installed, you can download and extract the project using:
 
 ```bash
-python -c "import urllib.request, zipfile; urllib.request.urlretrieve('https://github.com/D5F8ULT/ISO_ADVISOR/archive/refs/heads/main.zip', 'ISO_ADVISOR.zip'); zipfile.ZipFile('ISO_ADVISOR.zip').extractall('.')"
+python -c "import urllib.request, zipfile; urllib.request.urlretrieve('https://github.com/ArianAnoushe/ISO_ADVISOR/archive/refs/heads/main.zip', 'ISO_ADVISOR.zip'); zipfile.ZipFile('ISO_ADVISOR.zip').extractall('.')"
 ```
 
-**Note:** The ZIP download commands assume that the default branch is named `main`.
+**Note:** ZIP download commands assume that the default branch is named `main`.
 
 ---
 
 ## Install Dependencies
 
 Navigate to the project directory and install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-If you have multiple Python versions installed, you can use:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -107,7 +101,7 @@ python -m pip install -r requirements.txt
 
 ISO ADVISOR uses Streamlit for its graphical user interface.
 
-To launch the application, use:
+To launch the application, run:
 
 ```bash
 streamlit run app.py
@@ -127,8 +121,6 @@ Open this address in your browser to access the application.
 
 ## Technologies & Libraries
 
-The project is developed using Python and Streamlit.
-
 | Technology | Purpose |
 |---|---|
 | Python | Main programming language |
@@ -141,7 +133,7 @@ Additional libraries are listed in `requirements.txt`.
 
 ## Project Status
 
-<code>Version: Initial Development</code>
+**Version:** Initial Development
 
 ISO ADVISOR is currently an academic project under development. Its functionality, interface, and architecture are expected to improve over time.
 
@@ -179,5 +171,9 @@ This project is currently an academic project.
 License details may be added in future versions.
 
 ---
+
+## Repository
+
+GitHub: https://github.com/ArianAnoushe/ISO_ADVISOR
 
 **Developed with Python ❤️**
