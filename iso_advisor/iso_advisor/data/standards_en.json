@@ -1,0 +1,18 @@
+{
+ "ISO9001": {"keywords":["quality","customer","complaint","process","improvement","satisfaction"],
+  "questions":["Is a documented quality policy communicated to all staff?","Are the organization's main processes identified and documented?","Is customer satisfaction measured regularly?","Are internal audits carried out periodically?","Are corrective actions and continual improvement tracked and recorded?"]},
+ "ISO14001": {"keywords":["environment","waste","energy","pollution","wastewater","emissions","recycling"],
+  "questions":["Are the environmental aspects and impacts of activities identified?","Are legal environmental requirements identified and monitored?","Is waste management documented and implemented?","Are measurable environmental objectives set?","Is there an emergency preparedness and response plan?"]},
+ "ISO45001": {"keywords":["safety","accident","incident","workplace","hazard","fire","injury"],
+  "questions":["Are occupational hazards identified and risk-assessed?","Are accidents and near misses recorded and investigated?","Do employees receive periodic safety training?","Is personal protective equipment available and used?","Is the emergency response plan (fire, evacuation) rehearsed?"]},
+ "ISO27001": {"keywords":["security","data","information","hack","breach","server","software","cyber"],
+  "questions":["Has an information security risk assessment been carried out?","Is an information security policy documented and communicated?","Is user access control documented and enforced?","Are backups taken regularly and restores tested?","Is there a process for reporting and responding to security incidents?"]},
+ "ISO22000": {"keywords":["food","hygiene","haccp","contamination","kitchen","restaurant","catering"],
+  "questions":["Has a hazard analysis (HACCP) been done for the products?","Are hygiene conditions of premises and staff controlled?","Can products be traced from raw material to consumer?","Is there a recall plan for unsafe products?","Are raw-material suppliers evaluated?"]},
+ "ISO13485": {"keywords":["medical device","medical","patient","clinical","sterilization","implant"],
+  "questions":["Is a design and development file kept for medical products?","Is product risk management performed as required?","Are devices and production lots traceable?","Is a complaint handling and adverse event reporting process defined?","Are manufacturing and sterilization processes validated?"]},
+ "ISO50001": {"keywords":["energy","electricity","fuel","power","energy cost","consumption"],
+  "questions":["Is energy consumption measured across departments?","Have the major energy consumers been identified?","Are energy performance indicators defined and monitored?","Are energy reduction targets set?","Is energy efficiency considered when purchasing equipment?"]},
+ "ISO22301": {"keywords":["continuity","crisis","disruption","recovery","disaster","outage","downtime"],
+  "questions":["Has a business impact analysis (BIA) been performed?","Are continuity plans documented for critical processes?","Is there an alternative site or method for a crisis?","Are continuity plans exercised periodically?","Are responsibilities in a crisis defined and communicated?"]}
+}
